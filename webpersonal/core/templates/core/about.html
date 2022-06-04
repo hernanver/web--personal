@@ -1,0 +1,28 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}About me{% endblock %}
+
+{% block background %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1> About me</h1>
+<span class="subheading">Biography</span>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+<div class="col-lg-3 col-md-4 offset-lg-1">
+          <img class="img-fluid avatar" src="{% static 'core/img/photo-output 3.jpg' %}" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+          <h2 class="section-heading">Hernan Verzini</h2>   
+          <p>I was born on March 8, 1994, in La Plata, Buenos Aires, Argentina. I finished my degree as Industrial Engineer at La Plata's National University(UNLP) in 2019. I'm also semi-professional rugby player since 2017, where i had my first experience in Chartres, France. My second experience as rugby player was in Spain (2019/20) where i had also worked at DECATHLON in the Logistic's sector.  </p>
+          <p>Now i'm currently living in La Baule, France since the last two years and i'm getting into the world of programming, so i'm studying to became Web developer Full Stack.</p>
+          <p>Aptitudes: Teamwork, problem solving, helpfull.</p>
+          
+</div>
+</div>
+{% endblock %}
+
